@@ -15,9 +15,7 @@ function respond() {
       botRegexDaf = /^\/dafuq/;
       siege1 = 'https://i.groupme.com/350x419.png.adc8c73a6c1547e0a9e04320296329f8'; siege2 = 'https://i.groupme.com/1279x752.jpeg.aa5d0401e0df495bba4b4e09dc5a6bd7'
       siege3 = 'https://i.groupme.com/960x960.png.006e180e05d841c6a2962e844bf1e6fd';
-  var teamAb = ["NE","NO","ARI","PHI","CLE","TEN","OAK","DAL","IND","SEA","CIN","PIT","JAC"
-                ,"BAL","SD","DEN","MIN","ATL","KC","NYG","GB","DET","HOU","STL","CHI","CAR",
-                "MIA","BUF","SF","WAS","NYJ","TB"]
+  var teamAb = ["Carolyn","Fleming","Dan"]
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
     postMessage(cool());
@@ -30,13 +28,13 @@ function respond() {
   } 
   else if(request.text && botRegexStop.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("Stop appropriating black culture");
+    postMessage("I want to die.");
     this.res.end();
   } 
-  else if(request.text && botRegexProp.test(request.text)) {
+  else if(request.text && botReroupme.com/409x327.jpeg.08b5d95c51bb4897835cfe6b514f2f52.large");
+    this.res.end();gexProp.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/409x327.jpeg.08b5d95c51bb4897835cfe6b514f2f52.large");
-    this.res.end();
+    postMessage("https://i.g
   }
   else if(request.text && botRegexKys.test(request.text)) {
     this.res.writeHead(200);
@@ -108,7 +106,7 @@ function respond() {
   else if(request.text && botRegexSC.test(request.text)) {
     this.res.writeHead(200);
     
-    postMessage("http://daddyleagues.com/SRMFL/team/"+request.text.substring(5,8)+"/schedule");
+    postMessage("I want to die.");
     this.res.end();
   }
   else if(request.text && botRegexP.test(request.text)) {
